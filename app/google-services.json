@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "514626360731",
+    "firebase_url": "https://camera-71185-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "camera-71185",
+    "storage_bucket": "camera-71185.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514626360731:android:bfa7751a9fc5d1f5b6bd3e",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1iYvmzdUtpce01YAjQzJqRHkAMfH0_qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fon"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Поле для ввода местоположения -->
+        <EditText
+            android:id="@+id/edit_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/text"
+            android:hint="Местоположение"
+            android:inputType="text" />
+
+        <!-- Поле для выбора типа камеры -->
+        <EditText
+            android:id="@+id/edit_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/text"
+            android:hint="Тип камеры"
+            android:inputType="text" />
+
+        <!-- Поле для выбора даты установки -->
+        <DatePicker
+            android:id="@+id/date_picker"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent" />
+
+        <!-- Чекбокс для статуса активности -->
+        <CheckBox
+            android:id="@+id/checkbox_active"
+            android:layout_width="wrap_content"
+            android:textColor="@color/text"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Активна" />
+
+        <!-- Кнопка для добавления камеры -->
+        <Button
+            android:id="@+id/button_add_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"
+            android:padding="6dp"
+            android:text="Добавить камеру" />
+    </LinearLayout>
+</ScrollView>

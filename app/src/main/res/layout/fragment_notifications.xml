@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fon"
+    tools:context=".ui.notifications.NotificationsFragment">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittext_background"
+                android:hint="ФИО"
+                android:padding="10dp"
+                android:textColor="@color/text" />
+
+            <EditText
+                android:id="@+id/editTextPosition"
+                android:layout_width="match_parent"
+                android:background="@drawable/edittext_background"
+                android:padding="10dp"
+                android:textColor="@color/text"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="Должность" />
+
+            <EditText
+                android:id="@+id/editTextContact"
+                android:layout_width="match_parent"
+                android:background="@drawable/edittext_background"
+                android:padding="10dp"
+                android:textColor="@color/text"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="Контакты" />
+
+            <Button
+                android:id="@+id/addButton"
+                android:layout_width="wrap_content"
+                android:background="@drawable/button_background"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Добавить" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewEmployees"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp" />
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

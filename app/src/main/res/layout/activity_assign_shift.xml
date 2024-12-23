@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fon"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextWorkDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text"
+        android:hint="Выберите дату"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <EditText
+        android:id="@+id/editTextShift"
+        android:layout_width="match_parent"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text"
+        android:layout_height="wrap_content"
+        android:hint="Введите смену" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
+        android:text="Назначить смену" />
+</LinearLayout>

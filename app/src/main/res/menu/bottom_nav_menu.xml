@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/surveillance_cctv_camera_video_observation_security_monitoring_icon_260867"
+        android:title="Камеры" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/clipboard_120835"
+        android:title="Заявки" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/_643745_human_man_people_person_profile_113435"
+        android:title="Сотрудники" />
+
+</menu>

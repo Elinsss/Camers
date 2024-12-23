@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Устанавливаем цвет фона -->
+    <solid android:color="@color/fon_element" />
+
+    <!-- Добавляем закругленные углы -->
+    <corners android:radius="16dp" />
+
+    <!-- Добавляем отступы для внутреннего содержимого -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" />
+
+    <!-- Добавляем тень или границу -->
+    <stroke
+        android:width="2dp"
+        android:color="#D3D3D3" /> <!-- Цвет границы -->
+</shape>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Состояние в фокусе -->
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="@color/fon_element" /> <!-- Однородный белый фон -->
+            <corners android:radius="12dp" /> <!-- Закругленные углы -->
+            <stroke
+                android:width="2dp"
+                android:color="@color/element" /> <!-- Фиолетовая рамка -->
+        </shape>
+    </item>
+
+    <!-- Состояние по умолчанию -->
+    <item>
+        <shape>
+            <solid android:color="@color/fon_element" /> <!-- Светло-серый фон -->
+            <corners android:radius="12dp" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/fon" /> <!-- Серая рамка -->
+        </shape>
+    </item>
+</selector>
